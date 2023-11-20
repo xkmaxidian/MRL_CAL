@@ -1,2 +1,4 @@
 # MRL_CAL
-MRL_CAL code
+source code of MRL_CAL
+numpy>=1.19.1
+pytorch>=1.13.1
