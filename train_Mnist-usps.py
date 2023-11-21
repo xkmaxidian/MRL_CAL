@@ -97,7 +97,7 @@ if __name__ == '__main__':
     parser.add_argument("--tune_epochs", default=100)  # 50
     parser.add_argument("--feature_dim", default=512)
     parser.add_argument("--high_feature_dim", default=256)
-    parser.add_argument("--missing_rate", default=0.5)
+    parser.add_argument("--missing_rate", default=0.3)
     args = parser.parse_args()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if args.dataset == "MNIST-USPS":
